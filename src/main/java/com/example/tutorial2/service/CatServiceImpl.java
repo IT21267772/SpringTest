@@ -44,7 +44,7 @@ public class CatServiceImpl implements CatService {
 
     @Override
     public boolean deleteCat(String id) {
-        catRepo.deleteById("5");
+        catRepo.deleteById(id);
         return true;
     }
 }
